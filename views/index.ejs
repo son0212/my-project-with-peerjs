@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<script src="/javascript/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"  defer></script>
+		<script src="socket.io/socket.io.js" type="text/javascript"></script>
+		<script src="/javascript/javascript.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="/style/css.css">
+		<title>Document</title>
+	</head>
+	<body>
+		<div id="support">
+			<h1 id="your-id">Your id:</h1>
+			<p>List User Online:</p>
+			<ul id="list-user"></ul>
+			<video id='me' width="720px" height="720px"></video>
+			<video id='my-friend' width="720px" height="720px"></video>
+			<div id="call-with-id-peerjs">
+				<input type="text" id="id-for-call" placeholder="Peer Id">
+				<button type="button" id="btn-submit-id-user">Call</button>
+			</div>
+		</div>
+		<div id="sign-up-name">
+			<div id='name-user'>
+				<input type="text" placeholder="Nguyen Van A" id="name">
+				<button type="button" id="btn-submit-name-user">Sign Up name</button>
+			</div>
+		</div>
+	</body>
+	<script>
+		function getPeerId(peerId){
+			socket.emit('call-to-peerId',peerId);
+		}
+	</script>
+</html>

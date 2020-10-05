@@ -1,0 +1,65 @@
+#me{
+	border-width: 1px;
+	border-style: solid;
+	boder-color: blue; 
+	text-align: left;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+#my-friend{
+	border-width: 1px;
+	border-style: solid;
+	boder-color: red; 
+	text-align: right;
+	margin-top: 30px;
+	margin-right: 30px;
+}
+#call-with-id-peerjs{
+	display: inline-block;
+	background-color: #97d1f0;
+	width: 600px;
+	height: 200px;
+	text-align: center;
+	padding-top: 300px;
+}
+#id-for-call{
+	padding: 3px;
+	height: 30px;
+	width: 300px;
+	border-radius: 3%;
+}
+#btn-submit-id-user{
+	color: #fff;
+	background-color: blue;
+	border-radius: 10%;
+	height: 41px;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+#name-user{
+	display: inline-block;
+	background-color: #f5e595;
+	width: 600px;
+	text-align: center;
+	height: 200px;
+	padding-top: 300px;
+}
+#name{
+	padding: 3px;
+	height: 30px;
+	width: 300px;
+	border-radius: 3%;
+}
+#btn-submit-name-user{
+	color: ##f5b295;
+	background-color: #44ff1f;
+	border-radius: 10%;
+	padding: 3px;
+	height: 41px;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+#support{
+	display: none;
+}
